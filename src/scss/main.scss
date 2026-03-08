@@ -1,0 +1,12 @@
+// Main SCSS Entry Point
+// Volodin s.r.o. Website
+
+// Using @use instead of @import for modern Sass
+@use 'variables' as *;
+@use 'base';
+@use 'header';
+@use 'hero';
+@use 'about';
+@use 'services';
+@use 'contact';
+@use 'footer';

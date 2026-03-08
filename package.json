@@ -1,0 +1,15 @@
+{
+  "name": "volodinsro-website",
+  "version": "1.0.0",
+  "description": "Volodin s.r.o. - Software Services Company Website",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch src/scss:css",
+    "build:css": "sass src/scss:css --style=compressed",
+    "start": "npx serve ."
+  },
+  "private": true,
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}

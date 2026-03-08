@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Volodin s.r.o. - Professional Software Services in Slovakia. Code reviews, API development, testing, cybersecurity, and IT consulting.">
+    <meta name="keywords" content="software development, IT consulting, cybersecurity, Slovakia, Bratislava">
+    <title>Volodin s.r.o. | Software Services</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="header__logo">
+                    <span class="header__logo-text">Volodin</span>
+                    <span class="header__logo-suffix">s.r.o.</span>
+                </a>
+                <nav class="header__nav" id="nav">
+                    <ul class="header__menu">
+                        <li><a href="index.html" data-i18n="nav.home">Domov</a></li>
+                        <li><a href="services.html" data-i18n="nav.services">Sluzby</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">O nas</a></li>
+                    </ul>
+                </nav>
+                <div class="header__actions">
+                    <div class="lang-switcher">
+                        <button class="lang-switcher__btn active" data-lang="sk">SK</button>
+                        <button class="lang-switcher__btn" data-lang="en">EN</button>
+                    </div>
+                    <button class="header__burger" id="burger" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__shapes">
+            <div class="hero__shape hero__shape--1"></div>
+            <div class="hero__shape hero__shape--2"></div>
+            <div class="hero__shape hero__shape--3"></div>
+        </div>
+        <div class="container">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <div class="hero__badge" data-i18n="hero.badge">Software Services</div>
+                    <h1 class="hero__title" data-i18n="hero.title">Transformujeme vase napady na softverove riesenia</h1>
+                    <p class="hero__subtitle" data-i18n="hero.subtitle">Profesionalne softverove sluzby pre firmy po celom svete. Vyvoj, testovanie, bezpecnost a IT konzultacie na najvyssej urovni.</p>
+                    <div class="hero__buttons">
+                        <a href="services.html" class="btn btn--white btn--large" data-i18n="hero.cta">Nase sluzby</a>
+                        <a href="about.html" class="btn btn--secondary btn--large" style="border-color: rgba(255,255,255,0.3); color: white;" data-i18n="hero.cta2">Zistit viac</a>
+                    </div>
+                </div>
+                <div class="hero__illustration">
+                    <svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Code Window -->
+                        <rect x="50" y="50" width="400" height="300" rx="20" fill="white" fill-opacity="0.1"/>
+                        <rect x="50" y="50" width="400" height="40" rx="20" fill="white" fill-opacity="0.15"/>
+                        <circle cx="80" cy="70" r="8" fill="#ff5f57"/>
+                        <circle cx="105" cy="70" r="8" fill="#febc2e"/>
+                        <circle cx="130" cy="70" r="8" fill="#28c840"/>
+
+                        <!-- Code Lines -->
+                        <rect x="80" y="120" width="120" height="12" rx="6" fill="#8b5cf6" fill-opacity="0.8"/>
+                        <rect x="80" y="145" width="200" height="12" rx="6" fill="white" fill-opacity="0.3"/>
+                        <rect x="100" y="170" width="160" height="12" rx="6" fill="#3b82f6" fill-opacity="0.8"/>
+                        <rect x="100" y="195" width="180" height="12" rx="6" fill="white" fill-opacity="0.3"/>
+                        <rect x="100" y="220" width="140" height="12" rx="6" fill="#10b981" fill-opacity="0.8"/>
+                        <rect x="80" y="245" width="100" height="12" rx="6" fill="white" fill-opacity="0.3"/>
+                        <rect x="80" y="270" width="220" height="12" rx="6" fill="#8b5cf6" fill-opacity="0.8"/>
+                        <rect x="80" y="295" width="160" height="12" rx="6" fill="white" fill-opacity="0.3"/>
+
+                        <!-- Floating Elements -->
+                        <circle cx="420" cy="150" r="30" fill="#8b5cf6" fill-opacity="0.3"/>
+                        <circle cx="400" cy="280" r="20" fill="#3b82f6" fill-opacity="0.4"/>
+                        <rect x="380" y="200" width="50" height="50" rx="10" fill="white" fill-opacity="0.1"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title section-title--gradient" data-i18n="services.title">Nase sluzby</h2>
+            <p class="section-subtitle" data-i18n="services.subtitle">Ponukame komplexne softverove riesenia pre vase podnikanie</p>
+
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="services.security.title">Kyberneticka bezpecnost</h3>
+                    <p class="service-card__text" data-i18n="services.security.text">Posudenie zranitelnosti, penetracne testovanie a reakcia na bezpecnostne incidenty.</p>
+                    <a href="services.html" class="service-card__link" data-i18n="services.learnMore">
+                        Zistit viac
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="services.codeReview.title">Code Review & QA</h3>
+                    <p class="service-card__text" data-i18n="services.codeReview.text">Vykonavame revizie kodu a audity zabezpecenia kvality na udrzanie vysokych standardov softveru.</p>
+                    <a href="services.html" class="service-card__link" data-i18n="services.learnMore">
+                        Zistit viac
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="services.testing.title">Testovanie softveru</h3>
+                    <p class="service-card__text" data-i18n="services.testing.text">Kompletny cyklus testovania: funkcne, vykonnostne, bezpecnostne a automatizovane testy.</p>
+                    <a href="services.html" class="service-card__link" data-i18n="services.learnMore">
+                        Zistit viac
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="services.api.title">API & Middleware</h3>
+                    <p class="service-card__text" data-i18n="services.api.text">Udrzba API a middleware pre bezproblemovu integraciu s ostatnymi systemami.</p>
+                    <a href="services.html" class="service-card__link" data-i18n="services.learnMore">
+                        Zistit viac
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="services.localization.title">Lokalizacia softveru</h3>
+                    <p class="service-card__text" data-i18n="services.localization.text">Implementacia lokalizacie a internacionalizacie softveru pre globalne trhy.</p>
+                    <a href="services.html" class="service-card__link" data-i18n="services.learnMore">
+                        Zistit viac
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                    </div>
+                    <h3 class="service-card__title" data-i18n="services.consulting.title">IT Konzultacie</h3>
+                    <p class="service-card__text" data-i18n="services.consulting.text">Analyza potrieb klienta, vyvoj IT strategii, planovanie a implementacia IT projektov.</p>
+                    <a href="services.html" class="service-card__link" data-i18n="services.learnMore">
+                        Zistit viac
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="section section--gradient">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__content">
+                    <span class="about__badge" data-i18n="about.badge">O nas</span>
+                    <h2 class="about__title" data-i18n="about.title">Preco si vybrat Volodin s.r.o.?</h2>
+                    <p class="about__text" data-i18n="about.text1">Volodin s.r.o. je softverova spolocnost so sidlom v Bratislave, Slovensko. Specializujeme sa na poskytovanie komplexnych softverovych sluzieb pre firmy po celom svete.</p>
+                    <p class="about__text" data-i18n="about.text2">Poskytujeme odborne sluzby v kazdej faze vyvoja softveru - od planovania a implementacie az po testovanie a udrzbu.</p>
+                    <a href="about.html" class="btn btn--primary" data-i18n="about.cta">Viac o nas</a>
+                </div>
+                <div class="about__visual">
+                    <div class="about__illustration">
+                        <svg viewBox="0 0 400 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Main Circle -->
+                            <circle cx="200" cy="175" r="120" fill="url(#gradient1)" fill-opacity="0.1"/>
+                            <circle cx="200" cy="175" r="80" fill="url(#gradient1)" fill-opacity="0.15"/>
+
+                            <!-- Central Icon -->
+                            <rect x="160" y="135" width="80" height="80" rx="16" fill="url(#gradient1)"/>
+                            <path d="M185 165 L200 180 L215 160" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+                            <!-- Orbiting Elements -->
+                            <circle cx="120" cy="100" r="25" fill="#3b82f6" fill-opacity="0.2"/>
+                            <circle cx="120" cy="100" r="12" fill="#3b82f6"/>
+
+                            <circle cx="280" cy="100" r="25" fill="#8b5cf6" fill-opacity="0.2"/>
+                            <circle cx="280" cy="100" r="12" fill="#8b5cf6"/>
+
+                            <circle cx="100" cy="220" r="25" fill="#10b981" fill-opacity="0.2"/>
+                            <circle cx="100" cy="220" r="12" fill="#10b981"/>
+
+                            <circle cx="300" cy="220" r="25" fill="#f59e0b" fill-opacity="0.2"/>
+                            <circle cx="300" cy="220" r="12" fill="#f59e0b"/>
+
+                            <!-- Connection Lines -->
+                            <line x1="132" y1="108" x2="168" y2="143" stroke="#3b82f6" stroke-width="2" stroke-opacity="0.3"/>
+                            <line x1="268" y1="108" x2="232" y2="143" stroke="#8b5cf6" stroke-width="2" stroke-opacity="0.3"/>
+                            <line x1="112" y1="212" x2="168" y2="183" stroke="#10b981" stroke-width="2" stroke-opacity="0.3"/>
+                            <line x1="288" y1="212" x2="232" y2="183" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.3"/>
+
+                            <defs>
+                                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#2563eb"/>
+                                    <stop offset="100%" stop-color="#8b5cf6"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section--dark">
+        <div class="container">
+            <div class="cta">
+                <h2 class="cta__title" data-i18n="cta.title">Pripraveni zacat?</h2>
+                <p class="cta__text" data-i18n="cta.text">Kontaktujte nas a prediskutujeme, ako mozeme pomoct vasemu podnikaniu rast.</p>
+                <div class="cta__buttons">
+                    <a href="mailto:info@volodinsro.com" class="btn btn--white btn--large" data-i18n="cta.contact">Kontaktovat nas</a>
+                    <a href="services.html" class="btn btn--large" style="border: 2px solid rgba(255,255,255,0.3); color: white;" data-i18n="cta.services">Pozriet sluzby</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <span class="footer__logo-text">Volodin</span>
+                        <span class="footer__logo-suffix">s.r.o.</span>
+                    </div>
+                    <p class="footer__description" data-i18n="footer.description">Profesionalne softverove sluzby pre firmy po celom svete. Vyvoj, testovanie, bezpecnost a IT konzultacie.</p>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title" data-i18n="footer.navigation">Navigacia</h4>
+                    <div class="footer__links">
+                        <a href="index.html" data-i18n="nav.home">Domov</a>
+                        <a href="services.html" data-i18n="nav.services">Sluzby</a>
+                        <a href="about.html" data-i18n="nav.about">O nas</a>
+                    </div>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title" data-i18n="footer.services">Sluzby</h4>
+                    <div class="footer__links">
+                        <a href="services.html">Code Review</a>
+                        <a href="services.html" data-i18n="services.security.title">Kyberneticka bezpecnost</a>
+                        <a href="services.html" data-i18n="services.testing.title">Testovanie</a>
+                        <a href="services.html" data-i18n="services.consulting.title">IT Konzultacie</a>
+                    </div>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title" data-i18n="footer.contact">Kontakt</h4>
+                    <div class="footer__contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <a href="mailto:info@volodinsro.com">info@volodinsro.com</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <span>Racianska 1579/88B<br>Bratislava 831 02<br>Slovakia</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M7 15h0M2 9.5h20"/></svg>
+                        <span>IČO: 57105961</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                        <span>
+                            <a href="https://www.orsr.sk/hladaj_ico.asp?ICO=57105961" target="_blank" rel="noopener">ORSR.sk</a> ·
+                            <a href="https://finstat.sk/57105961" target="_blank" rel="noopener">Finstat.sk</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copy">&copy; 2025 Volodin s.r.o. <span data-i18n="footer.rights">Vsetky prava vyhradene.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
