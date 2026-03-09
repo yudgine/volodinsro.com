@@ -5,161 +5,161 @@ const translations = {
   sk: {
     nav: {
       home: 'Domov',
-      services: 'Sluzby',
-      about: 'O nas'
+      services: 'Služby',
+      about: 'O nás'
     },
     hero: {
-      badge: 'Software Services',
-      title: 'Transformujeme vase napady na softverove riesenia',
-      subtitle: 'Profesionalne softverove sluzby pre firmy po celom svete. Vyvoj, testovanie, bezpecnost a IT konzultacie na najvyssej urovni.',
-      cta: 'Nase sluzby',
-      cta2: 'Zistit viac'
+      badge: 'Softvérové služby',
+      title: 'Transformujeme vaše nápady na softvérové riešenia',
+      subtitle: 'Profesionálne softvérové služby pre firmy po celom svete. Vývoj, testovanie, bezpečnosť a IT konzultácie na najvyššej úrovni.',
+      cta: 'Naše služby',
+      cta2: 'Zistiť viac'
     },
     stats: {
-      experience: { number: '10+', label: 'Rokov skusenosti' },
-      projects: { number: '50+', label: 'Dokoncených projektov' },
-      clients: { number: '30+', label: 'Spokojnych klientov' },
-      countries: { number: '5+', label: 'Krajin' }
+      experience: { number: '10+', label: 'Rokov skúseností' },
+      projects: { number: '50+', label: 'Dokončených projektov' },
+      clients: { number: '30+', label: 'Spokojných klientov' },
+      countries: { number: '5+', label: 'Krajín' }
     },
     services: {
-      title: 'Nase sluzby',
-      subtitle: 'Ponukame komplexne softverove riesenia pre vase podnikanie',
-      learnMore: 'Zistit viac',
+      title: 'Naše služby',
+      subtitle: 'Ponúkame komplexné softvérové riešenia pre vaše podnikanie',
+      learnMore: 'Zistiť viac',
       codeReview: {
         title: 'Code Review & QA',
-        text: 'Vykonavame revizie kodu a audity zabezpecenia kvality na udrzanie vysokych standardov softveru.'
+        text: 'Vykonávame revízie kódu a audity zabezpečenia kvality na udržanie vysokých štandardov softvéru.'
       },
       security: {
-        title: 'Kyberneticka bezpecnost',
-        text: 'Posudenie zranitelnosti, penetracne testovanie a reakcia na bezpecnostne incidenty.'
+        title: 'Kybernetická bezpečnosť',
+        text: 'Posúdenie zraniteľností, penetračné testovanie a reakcia na bezpečnostné incidenty.'
       },
       testing: {
-        title: 'Testovanie softveru',
-        text: 'Kompletny cyklus testovania: funkcne, vykonnostne, bezpecnostne a automatizovane testy.'
+        title: 'Testovanie softvéru',
+        text: 'Kompletný cyklus testovania: funkčné, výkonnostné, bezpečnostné a automatizované testy.'
       },
       api: {
         title: 'API & Middleware',
-        text: 'Udrzba API a middleware pre bezproblemovu integraciu s ostatnymi systemami.'
+        text: 'Údržba API a middleware pre bezproblémovú integráciu s ostatnými systémami.'
       },
       localization: {
-        title: 'Lokalizacia softveru',
-        text: 'Implementacia lokalizacie a internacionalizacie softveru pre globalne trhy.'
+        title: 'Lokalizácia softvéru',
+        text: 'Implementácia lokalizácie a internacionalizácie softvéru pre globálne trhy.'
       },
       consulting: {
-        title: 'IT Konzultacie',
-        text: 'Analyza potrieb klienta, vyvoj IT strategii, planovanie a implementacia IT projektov.'
+        title: 'IT Konzultácie',
+        text: 'Analýza potrieb klienta, vývoj IT stratégií, plánovanie a implementácia IT projektov.'
       }
     },
     about: {
-      badge: 'O nas',
-      title: 'Preco si vybrat Volodin s.r.o.?',
-      text1: 'Volodin s.r.o. je softverova spolocnost so sidlom v Bratislave, Slovensko. Specializujeme sa na poskytovanie komplexnych softverovych sluzieb pre firmy po celom svete.',
-      text2: 'Poskytujeme odborne sluzby v kazdej faze vyvoja softveru - od planovania a implementacie az po testovanie a udrzbu.',
-      cta: 'Viac o nas'
+      badge: 'O nás',
+      title: 'Prečo si vybrať Volodin s.r.o.?',
+      text1: 'Volodin s.r.o. je softvérová spoločnosť so sídlom v Bratislave, Slovensko. Špecializujeme sa na poskytovanie komplexných softvérových služieb pre firmy po celom svete.',
+      text2: 'Poskytujeme odborné služby v každej fáze vývoja softvéru - od plánovania a implementácie až po testovanie a údržbu.',
+      cta: 'Viac o nás'
     },
     cta: {
-      title: 'Pripraveni zacat?',
-      text: 'Kontaktujte nas a prediskutujeme, ako mozeme pomoct vasemu podnikaniu rast.',
-      contact: 'Kontaktovat nas',
-      services: 'Pozriet sluzby'
+      title: 'Pripravení začať?',
+      text: 'Kontaktujte nás a prediskutujeme, ako môžeme pomôcť vášmu podnikaniu rásť.',
+      contact: 'Kontaktovať nás',
+      services: 'Pozrieť služby'
     },
     footer: {
-      description: 'Profesionalne softverove sluzby pre firmy po celom svete. Vyvoj, testovanie, bezpecnost a IT konzultacie.',
-      navigation: 'Navigacia',
-      services: 'Sluzby',
+      description: 'Profesionálne softvérové služby pre firmy po celom svete. Vývoj, testovanie, bezpečnosť a IT konzultácie.',
+      navigation: 'Navigácia',
+      services: 'Služby',
       contact: 'Kontakt',
-      rights: 'Vsetky prava vyhradene.'
+      rights: 'Všetky práva vyhradené.'
     },
     servicesPage: {
       hero: {
-        title: 'Nase sluzby',
-        subtitle: 'Komplexne softverove riesenia pre vase podnikanie'
+        title: 'Naše služby',
+        subtitle: 'Komplexné softvérové riešenia pre vaše podnikanie'
       },
-      contact: 'Kontaktovat nas',
+      contact: 'Kontaktovať nás',
       codeReview: {
-        badge: 'Kvalita kodu',
+        badge: 'Kvalita kódu',
         title: 'Code Review & QA',
-        text: 'Pomahame vasim projektom dosiahnut najvyssiu kvalitu kodu. Nasa revizia kodu identifikuje potencialne problemy, zlepsuje citatelnost a zabezpecuje dodrzovanie osvedcenych postupov.',
-        item1: 'Manualna revizia kodu skusenymi vyvojarmi',
-        item2: 'Automatizovana analyza kodu',
-        item3: 'Audity zabezpecenia kvality'
+        text: 'Pomáhame vašim projektom dosiahnuť najvyššiu kvalitu kódu. Naša revízia kódu identifikuje potenciálne problémy, zlepšuje čitateľnosť a zabezpečuje dodržiavanie osvedčených postupov.',
+        item1: 'Manuálna revízia kódu skúsenými vývojármi',
+        item2: 'Automatizovaná analýza kódu',
+        item3: 'Audity zabezpečenia kvality'
       },
       security: {
-        badge: 'Bezpecnost',
-        title: 'Kyberneticka bezpecnost',
-        text: 'Chranime vase systemy pred kybernetickymi hrozbami. Nasa sluzba kybernetickej bezpecnosti zahrna komplexne posudenie zranitelnosti a penetracne testovanie.',
-        item1: 'Posudenie zranitelnosti',
-        item2: 'Penetracne testovanie',
-        item3: 'Reakcia na bezpecnostne incidenty'
+        badge: 'Bezpečnosť',
+        title: 'Kybernetická bezpečnosť',
+        text: 'Chránime vaše systémy pred kybernetickými hrozbami. Naša služba kybernetickej bezpečnosti zahŕňa komplexné posúdenie zraniteľností a penetračné testovanie.',
+        item1: 'Posúdenie zraniteľností',
+        item2: 'Penetračné testovanie',
+        item3: 'Reakcia na bezpečnostné incidenty'
       },
       testing: {
         badge: 'Testovanie',
-        title: 'Testovanie softveru',
-        text: 'Zabezpecujeme kvalitu vasho softveru prostrednictvom kompletneho cyklu testovania. Od funkcneho testovania az po automatizovane testy.',
-        item1: 'Funkcne a integracne testovanie',
-        item2: 'Vykonnostne a zatazove testovanie',
-        item3: 'Automatizovane testovanie a CI/CD'
+        title: 'Testovanie softvéru',
+        text: 'Zabezpečujeme kvalitu vášho softvéru prostredníctvom kompletného cyklu testovania. Od funkčného testovania až po automatizované testy.',
+        item1: 'Funkčné a integračné testovanie',
+        item2: 'Výkonnostné a záťažové testovanie',
+        item3: 'Automatizované testovanie a CI/CD'
       },
       api: {
-        badge: 'Integracia',
+        badge: 'Integrácia',
         title: 'API & Middleware',
-        text: 'Navrhujeme a udrzujeme API a middleware pre bezproblemovu integraciu medzi vasimi systemami. Zabezpecujeme spolahlive a efektivne datove toky.',
-        item1: 'Navrh a vyvoj REST API',
-        item2: 'Systemova integracia',
-        item3: 'Udrzba a optimalizacia'
+        text: 'Navrhujeme a udržujeme API a middleware pre bezproblémovú integráciu medzi vašimi systémami. Zabezpečujeme spoľahlivé a efektívne dátové toky.',
+        item1: 'Návrh a vývoj REST API',
+        item2: 'Systémová integrácia',
+        item3: 'Údržba a optimalizácia'
       },
       localization: {
-        badge: 'Globalne trhy',
-        title: 'Lokalizacia softveru',
-        text: 'Pripravujeme vas softver pre globalne trhy. Implementujeme lokalizaciu a internacionalizaciu, aby vas produkt oslovil zakaznikov po celom svete.',
-        item1: 'Viacjazycna podpora',
-        item2: 'Kulturna adaptacia',
-        item3: 'Internacionalizacia (i18n)'
+        badge: 'Globálne trhy',
+        title: 'Lokalizácia softvéru',
+        text: 'Pripravujeme váš softvér pre globálne trhy. Implementujeme lokalizáciu a internacionalizáciu, aby váš produkt oslovil zákazníkov po celom svete.',
+        item1: 'Viacjazyčná podpora',
+        item2: 'Kultúrna adaptácia',
+        item3: 'Internacionalizácia (i18n)'
       },
       consulting: {
-        badge: 'Strategia',
-        title: 'IT Konzultacie',
-        text: 'Poskytujeme strategicke IT poradenstvo pre vase podnikanie. Analyzujeme vase potreby a pomahame vam vybudovat efektivnu IT infrastrukturu.',
-        item1: 'Analyza IT potrieb',
-        item2: 'Vyvoj IT strategie',
-        item3: 'Implementacia a optimalizacia'
+        badge: 'Stratégia',
+        title: 'IT Konzultácie',
+        text: 'Poskytujeme strategické IT poradenstvo pre vaše podnikanie. Analyzujeme vaše potreby a pomáhame vám vybudovať efektívnu IT infraštruktúru.',
+        item1: 'Analýza IT potrieb',
+        item2: 'Vývoj IT stratégie',
+        item3: 'Implementácia a optimalizácia'
       }
     },
     aboutPage: {
       hero: {
-        title: 'O nas',
-        subtitle: 'Poznajte nas a nasu pracu'
+        title: 'O nás',
+        subtitle: 'Poznajte nás a našu prácu'
       },
       story: {
-        badge: 'Nas pribeh',
-        title: 'Softverova spolocnost z Bratislavy',
-        text1: 'Volodin s.r.o. je softverova spolocnost zalozena v roku 2025 so sidlom v Bratislave, Slovensko. Specializujeme sa na poskytovanie profesionalnych softverovych sluzieb pre firmy po celom svete.',
-        text2: 'Nasa misia je jednoducha: pomahame firmam prosperovat v digitalnom svete prostrednictvom kvalitneho softveru, bezpecnych systemov a strategickeho IT poradenstva.',
-        text3: 'S medzinarodnou skusenostou a hlbokymi technickymi znalosami sme pripraveni riesit aj tie najzlozitejsie vyzvy vasho podnikania.'
+        badge: 'Náš príbeh',
+        title: 'Softvérová spoločnosť z Bratislavy',
+        text1: 'Volodin s.r.o. je softvérová spoločnosť založená v roku 2025 so sídlom v Bratislave, Slovensko. Špecializujeme sa na poskytovanie profesionálnych softvérových služieb pre firmy po celom svete.',
+        text2: 'Naša misia je jednoduchá: pomáhame firmám prosperovať v digitálnom svete prostredníctvom kvalitného softvéru, bezpečných systémov a strategického IT poradenstva.',
+        text3: 'S medzinárodnou skúsenosťou a hlbokými technickými znalosťami sme pripravení riešiť aj tie najzložitejšie výzvy vášho podnikania.'
       },
       info: {
-        title: 'Informacie o spolocnosti',
-        subtitle: 'Oficialne udaje o nasej spolocnosti',
-        details: 'Firemne udaje',
-        name: 'Nazov spolocnosti',
+        title: 'Informácie o spoločnosti',
+        subtitle: 'Oficiálne údaje o našej spoločnosti',
+        details: 'Firemné údaje',
+        name: 'Názov spoločnosti',
         address: 'Adresa',
-        ico: 'ICO (Company Reg. Number)',
-        founded: 'Rok zalozenia'
+        ico: 'IČO (Company Reg. Number)',
+        founded: 'Rok založenia'
       },
       values: {
-        title: 'Nase hodnoty',
-        subtitle: 'Principy, ktorymi sa riadime pri kazdej spoluprace',
+        title: 'Naše hodnoty',
+        subtitle: 'Princípy, ktorými sa riadime pri každej spolupráci',
         quality: {
           title: 'Kvalita',
-          text: 'Nerobime kompromisy v kvalite. Kazdy riadok kodu, kazdy test a kazda konzultacia je vykonana s najvyssou starostlivostou.'
+          text: 'Nerobíme kompromisy v kvalite. Každý riadok kódu, každý test a každá konzultácia je vykonaná s najvyššou starostlivosťou.'
         },
         reliability: {
-          title: 'Spolahlivost',
-          text: 'Dodrzujeme terminy a sluby. Nasi klienti sa mozu na nas spolahnut v kazdom projekte.'
+          title: 'Spoľahlivosť',
+          text: 'Dodržujeme termíny a sľuby. Naši klienti sa môžu na nás spoľahnúť v každom projekte.'
         },
         partnership: {
           title: 'Partnerstvo',
-          text: 'Nie sme len dodavatelia - sme partneri. Spolupracujeme s klientmi na dosiahnutie ich cielov.'
+          text: 'Nie sme len dodávatelia - sme partneri. Spolupracujeme s klientmi na dosiahnutie ich cieľov.'
         }
       }
     }

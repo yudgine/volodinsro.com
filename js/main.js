@@ -4,6 +4,27 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize i18n
   const i18n = new I18n();
 
+  // Email protection - decode and insert emails
+  const protectEmail = () => {
+    const user = 'info';
+    const domain = 'volodinsro';
+    const tld = 'com';
+    const email = user + '@' + domain + '.' + tld;
+
+    // Update all protected email links
+    document.querySelectorAll('[data-email]').forEach(el => {
+      el.href = 'mailto:' + email;
+      el.textContent = email;
+    });
+
+    // Update all protected email buttons/links with mailto
+    document.querySelectorAll('[data-email-btn]').forEach(el => {
+      el.href = 'mailto:' + email;
+    });
+  };
+
+  protectEmail();
+
   // Language Switcher
   const langButtons = document.querySelectorAll('.lang-switcher__btn');
   langButtons.forEach(btn => {
