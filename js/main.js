@@ -6,20 +6,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Email protection - decode and insert emails
   const protectEmail = () => {
-    const user = 'info';
     const domain = 'volodinsro';
     const tld = 'com';
-    const email = user + '@' + domain + '.' + tld;
 
-    // Update all protected email links
+    // Info email
+    const infoEmail = 'info' + '@' + domain + '.' + tld;
+    // Support email
+    const supportEmail = 'support' + '@' + domain + '.' + tld;
+
+    // Update info email links
     document.querySelectorAll('[data-email]').forEach(el => {
-      el.href = 'mailto:' + email;
-      el.textContent = email;
+      el.href = 'mailto:' + infoEmail;
+      el.textContent = infoEmail;
     });
 
-    // Update all protected email buttons/links with mailto
+    // Update support email links
+    document.querySelectorAll('[data-email-support]').forEach(el => {
+      el.href = 'mailto:' + supportEmail;
+      el.textContent = supportEmail;
+    });
+
+    // Update all protected email buttons/links with mailto (default to info)
     document.querySelectorAll('[data-email-btn]').forEach(el => {
-      el.href = 'mailto:' + email;
+      el.href = 'mailto:' + infoEmail;
+    });
+
+    // Support email buttons
+    document.querySelectorAll('[data-email-support-btn]').forEach(el => {
+      el.href = 'mailto:' + supportEmail;
     });
   };
 

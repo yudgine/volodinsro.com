@@ -1,6 +1,6 @@
 {
   "name": "volodinsro-website",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Volodin s.r.o. - Software Services Company Website",
   "main": "index.js",
   "scripts": {
