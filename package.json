@@ -1,11 +1,13 @@
 {
   "name": "volodinsro-website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Volodin s.r.o. - Software Services Company Website",
   "main": "index.js",
   "scripts": {
     "scss": "sass --watch src/scss:css",
     "build:css": "sass src/scss:css --style=compressed",
+    "update-version": "node scripts/update-version.js",
+    "build": "npm run build:css && npm run update-version",
     "start": "npx serve ."
   },
   "private": true,
